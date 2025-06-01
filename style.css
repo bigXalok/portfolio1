@@ -297,6 +297,7 @@ section{
 
 #experience {
     position: relative;
+    padding-top: 10rem;
 
 }
 
@@ -313,13 +314,26 @@ section{
     flex-direction: column;   
 }
 
-.article-container {
+.article-container-1{
     display: flex;
     justify-content: space-around;
     text-align: initial;
+    
+}
+
+.article-container-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: initial;
+}
+.article-container {
+    display: flex;
+    /* justify-content: space-around; */
+    /* text-align: initial; */
     gap: 5rem;
     flex-wrap: wrap;
     cursor: default;
+    flex-direction: column;
 }
 
 article {
@@ -334,11 +348,13 @@ article .icon {
 
 }
 
+
 /* PROJECT */
 
 #projects {
     position: relative;
-    padding-top: 10rem;
+    padding-top: 1rem;
+    
 
 }
 
@@ -351,6 +367,7 @@ article .icon {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    margin-left: 2rem;
 
 }
 
