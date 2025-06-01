@@ -1,6 +1,4 @@
-/* MEDIA QUERIES FOR RESPONSIVE DESIGN */
 
-/* Large Tablets and Small Desktops */
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -296,29 +294,5 @@
     .about-pic {
         width: 200px;
         height: 200px;
-    }
-}
-
-/* Landscape Orientation for Mobile */
-@media screen and (max-height: 500px) and (orientation: landscape) {
-    section {
-        height: auto;
-        padding-top: 2vh;
-        margin-bottom: 2rem;
-    }
-    
-    #profile {
-        height: auto;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .section_pic-container {
-        width: 200px;
-        height: 200px;
-    }
-    
-    .title {
-        font-size: 2rem;
     }
 }
