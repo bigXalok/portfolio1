@@ -316,14 +316,14 @@ section{
 
 .article-container-1{
     display: flex;
-    justify-content: space-around;
+    gap:7rem;
     text-align: initial;
     
 }
 
 .article-container-2 {
     display: flex;
-    justify-content: space-around;
+    gap: 7rem;
     text-align: initial;
 }
 .article-container {
